@@ -24,7 +24,7 @@ I built this to answer support questions using three kinds of information: FAQs,
 
 I built a dashboard that turns written reviews into sentiment, satisfaction scores, and themes. I separated the API, output validation, summary calculations, and storage so I could test those parts independently of the model.
 
-[Try the app](https://customer-feedback-analyzer-748gprrueqgffnaygsoevu.streamlit.app/) · [Code and tests](https://github.com/kcrokkam/customer-feedback-analyzer)
+[Try the app](https://customer-feedback-analyzer-e9knamtt665fhwzv9strhq.streamlit.app/) · [Code and tests](https://github.com/kcrokkam/customer-feedback-analyzer)
 
 ### [Interview Synthesizer](https://github.com/kcrokkam/interview_synthesizer)
 
