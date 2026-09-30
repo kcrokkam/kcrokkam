@@ -36,7 +36,7 @@ I wanted to see how much of interview synthesis I could automate while keeping c
 
 I used sample reports to explore a two-stage LLM workflow: extract and classify the values first, then interpret that intermediate result. My focus was the pipeline design and how to test it with an injected model dependency.
 
-[Project and limitations](https://github.com/kcrokkam/blood-work-analyzer)
+[Try the app](https://blood-work-analyzer-hcsq3acoxxkg3oedr5sxke.streamlit.app/) · [Project and limitations](https://github.com/kcrokkam/blood-work-analyzer)
 
 ## My technical background
 
