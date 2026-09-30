@@ -12,7 +12,7 @@ I'm also pursuing a Ph.D. in Artificial Intelligence at the University of the Cu
 
 I built a shopping assistant that connects natural-language requests and product images to a catalog. The agent calls tools for search, ratings, and demo checkout, while the underlying data and transaction logic stay in Python and SQLite.
 
-[Try the app](https://ai-shopping-agent-fvz8dpwpsfrihivomnkcz2.streamlit.app/) · [How it works](https://github.com/kcrokkam/ai-shopping-agent/blob/main/ARCHITECTURE.md)
+[Try the app](https://ai-shopping-agent-nbnus6ixgzzhpu9hkatg5z.streamlit.app/) · [How it works](https://github.com/kcrokkam/ai-shopping-agent/blob/main/ARCHITECTURE.md)
 
 ### [Telecom RAG Assistant](https://github.com/kcrokkam/telecom-rag-chatbot)
 
