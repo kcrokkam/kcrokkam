@@ -1,26 +1,47 @@
-# Krishna Chaitanya
+# Krishna Chaitanya Rokkam
 
-I build Python applications that turn language and unstructured data into useful workflows: agents that use tools, search over documents, structured feedback analytics, and evidence-checked research summaries.
+I'm a data scientist and enterprise analytics professional based in Boston. I work with Python, SQL, and machine learning to turn operational data into useful decisions, and I build AI applications around that same goal.
 
-**Focus:** AI / LLM engineering and applied data science.
+My background spans enterprise analytics at Ahold Delhaize USA, strategy and analytics at Vertex Pharmaceuticals, and production automation at Accenture. At Ahold Delhaize, I standardized reporting across five retail brands and reduced a monthly reporting cycle from more than 20 days to 3 days. At Vertex, I used Python regression analyses to study drivers of drug development timelines.
 
-## Selected work
+I'm also pursuing a Ph.D. in Artificial Intelligence at the University of the Cumberlands. My interests are trusted enterprise AI, agentic systems, and AI evaluation.
 
-| Project | What it does | Engineering evidence |
-| --- | --- | --- |
-| [AI Shopping Agent](https://github.com/kcrokkam/ai-shopping-agent) | Searches a product catalog through text or images, retrieves ratings, and supports demo checkout. | [Agent + tools](https://github.com/kcrokkam/ai-shopping-agent/tree/main/src/ai_shopping_agent) · [Tests](https://github.com/kcrokkam/ai-shopping-agent/tree/main/tests) |
-| [Customer Feedback Analyzer](https://github.com/kcrokkam/customer-feedback-analyzer) | Turns reviews into validated sentiment, satisfaction scores, and topic summaries. | [API + analytics](https://github.com/kcrokkam/customer-feedback-analyzer/tree/main/src/project_feedback_analyzer) · [Dashboard](https://github.com/kcrokkam/customer-feedback-analyzer#screenshots) |
-| [Telecom RAG Chatbot](https://github.com/kcrokkam/telecom-rag-chatbot) | Answers support questions using FAQs, resolved tickets, and a PDF guide. | [Retrieval pipeline](https://github.com/kcrokkam/telecom-rag-chatbot/blob/main/retriever.py) · [Architecture](https://github.com/kcrokkam/telecom-rag-chatbot/blob/main/ARCHITECTURE.md) |
-| [Interview Synthesizer](https://github.com/kcrokkam/interview_synthesizer) | Converts synthetic interview transcripts into themes and a memo with source checks. | [Sample memo](https://github.com/kcrokkam/interview_synthesizer/blob/main/output/memo.md) · [Quality report](https://github.com/kcrokkam/interview_synthesizer/blob/main/output/quality_report.md) |
-| [Blood Work Analyzer](https://github.com/kcrokkam/blood-work-analyzer) | Demonstrates a two-stage extraction and interpretation workflow on sample reports. | [Pipeline design](https://github.com/kcrokkam/blood-work-analyzer/blob/main/ARCHITECTURE.md) · [Model-independent tests](https://github.com/kcrokkam/blood-work-analyzer/tree/main/tests) |
+## What I'm building
 
-## Where to start
+### [AI Shopping Agent](https://github.com/kcrokkam/ai-shopping-agent)
 
-- **For AI / LLM engineering:** explore the Shopping Agent's tools, then the Telecom Chatbot's retrieval and packaging.
-- **For applied data science:** explore the Feedback Analyzer's schemas and aggregation, then the Interview Synthesizer's source checks and documented failure cases.
+I built a shopping assistant that connects natural-language requests and product images to a catalog. The agent calls tools for search, ratings, and demo checkout, while the underlying data and transaction logic stay in Python and SQLite.
 
-**Tools used across these projects:** Python, SQL / SQLite, pandas, FastAPI, Pydantic, LangChain, Chroma, Streamlit, pytest, and GitHub Actions.
+[Try the app](https://ai-shopping-agent-fvz8dpwpsfrihivomnkcz2.streamlit.app/) · [How it works](https://github.com/kcrokkam/ai-shopping-agent/blob/main/ARCHITECTURE.md)
 
-These are portfolio projects with documented trade-offs and limitations. Tests of application behavior are distinguished from evaluations of model quality in each project.
+### [Telecom RAG Assistant](https://github.com/kcrokkam/telecom-rag-chatbot)
 
-[Full portfolio and project guide →](https://github.com/kcrokkam/agentic-ai-projects)
+I built this to answer support questions using three kinds of information: FAQs, resolved tickets, and a technical guide. I used LangChain, Chroma, and local embeddings to bring those sources into one retrieval workflow, with both a web interface and terminal chat.
+
+[Retrieval design](https://github.com/kcrokkam/telecom-rag-chatbot/blob/main/ARCHITECTURE.md) · [Run it locally](https://github.com/kcrokkam/telecom-rag-chatbot#run-locally)
+
+### [Customer Feedback Analyzer](https://github.com/kcrokkam/customer-feedback-analyzer)
+
+I built a dashboard that turns written reviews into sentiment, satisfaction scores, and themes. I separated the API, output validation, summary calculations, and storage so I could test those parts independently of the model.
+
+[Try the app](https://customer-feedback-analyzer-748gprrueqgffnaygsoevu.streamlit.app/) · [Code and tests](https://github.com/kcrokkam/customer-feedback-analyzer)
+
+### [Interview Synthesizer](https://github.com/kcrokkam/interview_synthesizer)
+
+I wanted to see how much of interview synthesis I could automate while keeping claims traceable to the original transcripts. This project produces themes and a memo, checks quotes and numbers, and adds a separate critic review. I document where those checks still miss problems.
+
+[Sample memo](https://github.com/kcrokkam/interview_synthesizer/blob/main/output/memo.md) · [What I learned](https://github.com/kcrokkam/interview_synthesizer#what-i-learned)
+
+### [Blood Work Analyzer](https://github.com/kcrokkam/blood-work-analyzer)
+
+I used sample reports to explore a two-stage LLM workflow: extract and classify the values first, then interpret that intermediate result. My focus was the pipeline design and how to test it with an injected model dependency.
+
+[Project and limitations](https://github.com/kcrokkam/blood-work-analyzer)
+
+## My technical background
+
+- **Data science:** Python, SQL, R, pandas, NumPy, scikit-learn, regression, classification, feature engineering, and model evaluation.
+- **Applied AI:** LangChain, RAG, agents, Chroma, FastAPI, and Streamlit.
+- **Enterprise analytics:** Snowflake, PostgreSQL, ETL, Alteryx, Power BI, AWS, and Azure.
+
+[LinkedIn](https://www.linkedin.com/in/krishna-chaitanya-rokkam/) · [All projects](https://github.com/kcrokkam/agentic-ai-projects)
