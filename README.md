@@ -18,7 +18,7 @@ I built a shopping assistant that connects natural-language requests and product
 
 I built this to answer support questions using three kinds of information: FAQs, resolved tickets, and a technical guide. I used LangChain, Chroma, and local embeddings to bring those sources into one retrieval workflow, with both a web interface and terminal chat.
 
-[Retrieval design](https://github.com/kcrokkam/telecom-rag-chatbot/blob/main/ARCHITECTURE.md) · [Run it locally](https://github.com/kcrokkam/telecom-rag-chatbot#run-locally)
+[Try the app](https://telecom-rag-chatbot-zr7jytflnhserbkps7uhaq.streamlit.app/) · [Retrieval design](https://github.com/kcrokkam/telecom-rag-chatbot/blob/main/ARCHITECTURE.md) · [Run it locally](https://github.com/kcrokkam/telecom-rag-chatbot#run-locally)
 
 ### [Customer Feedback Analyzer](https://github.com/kcrokkam/customer-feedback-analyzer)
 
